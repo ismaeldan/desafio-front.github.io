@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 ul {
@@ -10,7 +11,51 @@ ul {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ============== VARIABLES ============== */
+
+:root {
+  
+  /* colors */
+  --base-text-color: #33323D;
+  --base-text-color-second: #5FB4A2;
+  --button-color: #ffffff;
+  --button-color-second: #203A4C;
+  --input-color: #EAEAEB;
+
+  /* Fonts */
+  --title-font: "Ibarra Real Nova", serif;
+  --body-font: "Public Sans", sans-serif;
+
+  /* H1 */
+  --h1-font-size: 50px;
+  --h1-line-height: 50px -0,45px;
+  --h1-letter-spacing: -0,45px;
+
+  /* H2 */
+  --h2-font-size: 40px;
+  --h2-line-height: 42px;
+  --h2-letter-spacing: -0,36px;
+
+  /* H3 */
+  --h3-font-size: 32px;
+  --h3-line-height: 36px;
+  --h3-letter-spacing: -0,29px;
+
+  /* Body 1 */
+  --body1-font-size: 16px;
+  --body1-line-height: 30px;
+
+  /* Body 2 */
+  --body2-font-size: 15px;
+  --body2-line-height: 30px;
 }
 
 /* ============== BASE ============== */
@@ -27,4 +72,17 @@ a {
   justify-content: space-between;
   
   border: 5px solid red;
+}
+
+li {
+  font-family: var(--body-font);
+  font-size: var(--body1-font-size) ;
+  line-height: var(--body1-line-height);
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-size: var(--h1-font-size);
+  line-height: var(--h1-font-wight);
+  letter-spacing: var(--h1-letter-spacing);
 }

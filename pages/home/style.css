@@ -1,3 +1,30 @@
-ul.grid {
+/* ============== RESET ============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============== BASE ============== */
+
+#header {
+  display: flex;
+  position: absolute;
+  width: 1111px;
+  height: 32px;
+  top: 64px;
+  left: 165px;
+  gap: 0px;
+  align-items: center;
+  justify-content: space-between;
+  
+  border: 5px solid red;
 }

@@ -1,0 +1,175 @@
+/* ============== VARIABLES ============== */
+
+:root {
+  
+  /* colors */
+  --base-text-color: #33323D;
+  --base-text-color-second: #5FB4A2;
+  --button-color: #ffffff;
+  --button-color-second: #203A4C;
+  --input-color: #EAEAEB;
+
+  /* Fonts */
+  --title-font: "Ibarra Real Nova", serif;
+  --body-font: "Public Sans", sans-serif;
+
+  /* H1 */
+  --h1-font-size: 50px;
+  --h1-line-height: 50px -0,45px;
+  --h1-letter-spacing: -0,45px;
+
+  /* H2 */
+  --h2-font-size: 40px;
+  --h2-line-height: 42px;
+  --h2-letter-spacing: -0,36px;
+
+  /* H3 */
+  --h3-font-size: 32px;
+  --h3-line-height: 36px;
+  --h3-letter-spacing: -0,29px;
+
+  /* Body 1 */
+  --body1-font-size: 16px;
+  --body1-line-height: 30px;
+
+  /* Body 2 */
+  --body2-font-size: 15px;
+  --body2-line-height: 30px;
+}
+
+/* ============== BASE ============== */
+
+#home .image img {
+  width: 1110px;
+  height: 600px;
+}
+
+#home .text {
+  width: 445px;
+  height: 357px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 443px;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background-color: var(--button-color-second);
+  position: absolute;
+  top: 310px;
+}
+
+#home .text p {
+  color: var(--button-color);
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-left: 18px;
+}
+
+#home a {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home h1 {
+  width: 390px;
+  height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20px;
+  letter-spacing: -1px;
+}
+
+/* ============== img-left ============== */
+
+#img-left {
+  margin-bottom: 80px;
+  height: 500px;
+}
+
+#img-left .image img {
+  width: 540px;
+  float: left;
+}
+
+#img-left .text{
+  width: 350px;
+  height: 500px;
+  margin-left: 690px;
+}
+
+#img-left h2{
+  margin: 55px 0;
+}
+
+#img-left p{
+  color: var(--base-text-color);
+  font-family: var(--body-font);
+  font-size: var(--body1-font-size);
+  line-height: var(--body1-line-height);
+}
+
+#img-left button{
+  width: 204px;
+  float: none;
+  margin: 89px 0;
+}
+
+#img-left .line {
+  height: 1px;
+  background: #979797;
+}
+
+/* ============== img-right ============== */
+
+#img-right {
+  margin-bottom: 80px;
+  height: 500px;
+}
+
+#img-right .image img {
+  width: 540px;
+  margin-left: 220px; 
+}
+
+#img-right .text{
+  width: 350px;
+  height: 500px;
+  float: left;
+}
+
+#img-right h2{
+  margin: 55px 0;
+}
+
+#img-right p{
+  color: var(--base-text-color);
+  font-family: var(--body-font);
+  font-size: var(--body1-font-size);
+  line-height: var(--body1-line-height);
+}
+
+#img-right button{
+  width: 204px;
+  float: none;
+  margin: 89px 0;
+}
+
+#img-right .line {
+  height: 1px;
+  background: #979797;
+}
+
+/* ============== Adjustment ============== */
+ 
+.important button{
+  margin: 74px 0 !important;
+}

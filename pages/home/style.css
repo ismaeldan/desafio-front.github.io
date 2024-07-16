@@ -1,0 +1,129 @@
+/* ============== VARIABLES ============== */
+
+:root {
+  
+  /* colors */
+  --base-text-color: #33323D;
+  --base-text-color-second: #5FB4A2;
+  --button-color: #ffffff;
+  --button-color-second: #203A4C;
+  --input-color: #EAEAEB;
+
+  /* Fonts */
+  --title-font: "Ibarra Real Nova", serif;
+  --body-font: "Public Sans", sans-serif;
+
+  /* H1 */
+  --h1-font-size: 50px;
+  --h1-line-height: 50px -0,45px;
+  --h1-letter-spacing: -0,45px;
+
+  /* H2 */
+  --h2-font-size: 40px;
+  --h2-line-height: 42px;
+  --h2-letter-spacing: -0,36px;
+
+  /* H3 */
+  --h3-font-size: 32px;
+  --h3-line-height: 36px;
+  --h3-letter-spacing: -0,29px;
+
+  /* Body 1 */
+  --body1-font-size: 16px;
+  --body1-line-height: 30px;
+
+  /* Body 2 */
+  --body2-font-size: 15px;
+  --body2-line-height: 30px;
+}
+
+/* ============== BASE ============== */
+
+#home .image img {
+  width: 1110px;
+  height: 600px;
+}
+
+#home .text {
+  width: 445px;
+  height: 357px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 443px;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background-color: var(--button-color-second);
+  position: absolute;
+  top: 310px;
+}
+
+#home .text p {
+  color: var(--button-color);
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-left: 18px;
+}
+
+#home a {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home h1 {
+  width: 390px;
+  height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20px;
+  letter-spacing: -1px;
+}
+
+/* ============== ABOUT ============== */
+
+#about {
+  margin: 150px 0;
+  height: 600px;
+}
+
+#about .image img {
+  width: 540px;
+  float: left;
+}
+
+#about .text{
+  width: 430px;
+  height: 600px;
+  margin-left: 690px;
+}
+
+#about h2{
+  margin: 28px 0;
+}
+
+#about p{
+  color: var(--base-text-color);
+  font-family: var(--body-font);
+  font-size: var(--body1-font-size);
+  line-height: var(--body1-line-height);
+}
+
+#about button{
+  width: 204px;
+  float: none;
+  margin: 45px 113px;
+}
+
+#about .line {
+  height: 1px;
+  background: #979797;
+}

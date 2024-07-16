@@ -36,7 +36,7 @@ button {
 
   /* H1 */
   --h1-font-size: 50px;
-  --h1-line-height: 50px -0,45px;
+  --h1-line-height: 50px ;
   --h1-letter-spacing: -0,45px;
 
   /* H2 */
@@ -90,7 +90,6 @@ header .menu {
 a {
   color: var(--base-text-color);
   font-family: var(--body-font);
-  font-size: var(--body1-font-size) ;
   line-height: var(--body1-line-height);
 }
 
@@ -114,8 +113,6 @@ h2 {
 
 #contact {
   height: 234px;
-  display: flex;
-  align-items: center;
 }
 
 #contact h2{

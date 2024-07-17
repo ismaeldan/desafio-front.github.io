@@ -109,6 +109,21 @@ h2 {
   letter-spacing: var(--h2-letter-spacing);
 }
 
+h3 {
+  color: var(--base-text-color);
+  font-family: var(--title-font);
+  font-size: var(--h3-font-size);
+  line-height: var(--h3-line-height);
+  letter-spacing: var(--h3-letter-spacing);
+}
+
+p{
+  color: var(--base-text-color);
+  font-family: var(--body-font);
+  font-size: var(--body1-font-size);
+  line-height: var(--body1-line-height);
+}
+
 /* ============== CONTACT ============== */
 
 #contact {
@@ -161,19 +176,26 @@ footer a {
   letter-spacing: 2px;
 }
 
-footer .social {
+.social {
   padding-left: 537px;
 }
 
-footer .social a + a{
+.social a + a{
   padding-left: 16px;
 }
 
-footer .social a {
+.social a {
   transition: 0.3s;
   display: inline-block;
 }
 
-footer .social a:hover {
+.social a:hover {
   transform: translateY(-8px);
 }
+
+/* ============== menu ============== */
+
+.active  {
+  color: var(--base-text-color-second)
+}
+

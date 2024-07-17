@@ -110,13 +110,6 @@
   margin: 28px 0;
 }
 
-#about p{
-  color: var(--base-text-color);
-  font-family: var(--body-font);
-  font-size: var(--body1-font-size);
-  line-height: var(--body1-line-height);
-}
-
 #about button{
   width: 204px;
   float: none;
